@@ -9,16 +9,28 @@ import { Product } from '../models/product';
 })
 export class ProductsComponent implements OnInit {
 
-  product: Product = {
-    id: 1,
-    name: 'test',
-    price: 100
-  };
+  products: Product[] = [
+    {
+      id: 1,
+      name: 'PUBG',
+      price: 50
+    },
+    {
+      id: 2,
+      name: 'Overwatch',
+      price: 100
+    }
+  ];
+
+  selectedProduct = Product;
 
   constructor() { }
 
+  onSelectProduct(product) {
+    this.selectedProduct = product;
+  }
+
   ngOnInit() {
-    console.log('This is in the OnInit lifecyle hook');
   }
 
 }
