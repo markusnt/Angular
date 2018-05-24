@@ -1,0 +1,22 @@
+{
+    "equipamento": [
+    {
+      "nro_serie": "CAT2043v31d",
+      "produto_id": "ASR-920-FAN-M",
+      "contrato_nro": "200419209",
+      "terminoV": "5/21/2018",
+      "suporte": "SMARTNET",
+      "fornecedor_suporte": "NEC LATIN S/A",
+      "versao_software": "12.2(25)SEE3" 
+    },
+    {
+      "nro_serie": "topp",
+      "produto_id": "ASR-920-FAN-M",
+      "contrato_nro": "200419209",
+      "terminoV": "5/21/2018",
+      "suporte": "SMARTNET",
+      "fornecedor_suporte": "NEC LATIN S/A",
+      "versao_software": "12.2(25)SEE3" 
+    }
+    ]
+}
